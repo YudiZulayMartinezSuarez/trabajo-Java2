@@ -1,7 +1,7 @@
-/*El método trimStart() quita el espacio en blanco del principio de una cadena y devuelve una nueva cadena, sin modificar la cadena original. es un alias de este método.trimLeft()*/
+/*El método startsWith() indica si una cadena de texto comienza con los caracteres de una cadena de texto concreta, devolviendo true o false según corresponda.*/
 
-const greeting = '   Hola mundo!   ';
+const str1 = 'planes para el viernes';
 
-console.log(greeting);
+console.log(str1.startsWith('Sat'));
 
-console.log(greeting.trimStart());
+console.log(str1.startsWith('Sat', 3));
