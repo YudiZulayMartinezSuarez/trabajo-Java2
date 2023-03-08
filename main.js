@@ -1,7 +1,7 @@
-/*El método startsWith() indica si una cadena de texto comienza con los caracteres de una cadena de texto concreta, devolviendo true o false según corresponda.*/
+/*El método endsWith() determina si una cadena de texto termina con los caracteres de una cadena indicada, devolviendo true o false según corresponda.*/
 
-const str1 = 'planes para el viernes';
+let str = 'Ser o no ser, esa es la cuestión.'
 
-console.log(str1.startsWith('Sat'));
-
-console.log(str1.startsWith('Sat', 3));
+console.log(str.endsWith('cuestion.'))  // true
+console.log(str.endsWith('ser'))      // false
+console.log(str.endsWith('ser', 19))
