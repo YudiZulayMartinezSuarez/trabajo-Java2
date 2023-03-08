@@ -1,21 +1,5 @@
-/*indiceA
-Un entero entre 0 y la longitud de la cadena menos 1.
-
-indiceB
-(opcional) Un entero entre 0 y la longitud de la cadena.
-
-Descripción*/
+/*substring() es un método para extraer una subcadena de texto de una cadena más grande, dadas las posiciones inicial y final dentro de la cadena. Debido a que el método substring() es un método del objeto String, debe invocarse a través de una instancia particular de su clase. Suena un poco a rollo pero en realidad es muy sencillo si echamos un vistazo a su sintaxis:*/
 
 
-function reemplazarCadena(cadenaVieja, cadenaNueva, cadenaCompleta) {
-    
-    
-       for (var i = 0; i < cadenaCompleta.length; i++) {
-          if (cadenaCompleta.substring(i, i + cadenaVieja.length) == cadenaVieja) {
-             cadenaCompleta= cadenaCompleta.substring(0, i) + cadenaNueva + cadenaCompleta.substring(i + cadenaVieja.length, cadenaCompleta.length);
-          }
-       }
-       return cadenaCompleta;
-    }
-    
-    reemplazarCadena("Mundo", "pagina", "zulay martinez");
+let cadena = 'Hola Mundo';
+cadena.substring(0,2);
