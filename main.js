@@ -1,4 +1,5 @@
-/*El método replace() devuelve una nueva cadena con algunas o todas las coincidencias de un patrón, siendo cada una de estas coincidencias reemplazadas por remplazo. El patrón puede ser una cadena o una RegExp, y el reemplazo puede ser una cadena o una función que será llamada para cada coincidencia. Si el patrón es una cadena, sólo la primera coincidencia será reemplazada.*/
+/*El método padStart() rellena la cadena actual con una cadena dada (repetida eventualmente) de modo que la cadena resultante alcance una longitud dada. El relleno es aplicado desde el inicio (izquierda) de la cadena actual.*/
 
-const p = 'el perro salta sobre la serpiente perezosa. si la serpiente reacciona,¿es realmente perezosa?';
-console.log(p.replace('gato', 'girafa'));
+'abc'.padStart(10);        
+'abc'.padStart(10, "foo");  
+'abc'.padStart(6,"123465")
