@@ -1,8 +1,10 @@
-/* La propiedad length de un objeto String representa la longitud de una cadena */
+/* El siguiente ejemplo muestra caracteres de diferentes localizaciones en la cadena "Brave new world"*/
 
-let x = 'zulay';
-let empty = '';
+var cualquierCadena="Brave new world";
 
-console.log('zulay ' + x.length + 'zulay tiene 7 unidades de código de longitud');
-
-console.log('La cadena vacía tiene una longitud de' + empty.length);
+console.log("El carácter en el índice 0 es '" + cualquierCadena.charAt(0) + "'")
+console.log("El carácter en el índice 1 es '" + cualquierCadena.charAt(1) + "'")
+console.log("El carácter en el índice 2 es '" + cualquierCadena.charAt(2) + "'")
+console.log("El carácter en el índice 3 es '" + cualquierCadena.charAt(3) + "'")
+console.log("El carácter en el índice 4 es '" + cualquierCadena.charAt(4) + "'")
+console.log("El carácter en el índice 999 es '" + cualquierCadena.charAt(999) + "'")
