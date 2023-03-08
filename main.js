@@ -1,5 +1,22 @@
-/*substring() es un método para extraer una subcadena de texto de una cadena más grande, dadas las posiciones inicial y final dentro de la cadena. Debido a que el método substring() es un método del objeto String, debe invocarse a través de una instancia particular de su clase. Suena un poco a rollo pero en realidad es muy sencillo si echamos un vistazo a su sintaxis:*/
+/*El siguiente ejemplo define una función que divide una cadena en un array de cadenas usando el separador especificado. Después de la división de la cadena, la función muestra mensajes indicando la cadena original (antes de la división), el separador usado, el número de elementos del array y los elementos individuales del array.*/
 
-
-let cadena = 'Hola Mundo';
-cadena.substring(0,2);
+function dividirCadena(cadenaADividir,separador) {
+    var arrayDeCadenas = cadenaADividir.split(separador);
+    document.write('<p>La cadena original es: "' + cadenaADividir + '"');
+    document.write('<br>El separador es: "' + separador + '"');
+    document.write("<br>El array tiene " + arrayDeCadenas.length + " elementos: ");
+ 
+    for (var i=0; i < arrayDeCadenas.length; i++) {
+       document.write(arrayDeCadenas[i] + " / ");
+    }
+ }
+ 
+ var cadenaVerso = "Oh brave new world that has such people in it.";
+ var cadenaMeses = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec";
+ 
+ var espacio = " ";
+ var coma = ",";
+ 
+ dividirCadena(cadenaVerso, espacio);
+ dividirCadena(cadenaVerso);
+ dividirCadena(cadenaMeses, coma);
