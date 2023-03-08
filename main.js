@@ -1,4 +1,4 @@
-/*trim( ) elimina los espacios en blanco en ambos extremos del string. Los espacios en blanco en este contexto, son todos los caracteres sin contenido (espacio, tabulación, etc.) y todos los caracteres de nuevas lineas (LF,CR,etc.).*/
+/*El método estatico String.raw() es una función de plantilla de literales (en-US), similar al prefijo r en Python o al prefijo @ en C# para strings literales (con ciertas diferencias: ver la explicación en este problema). Se utiliza para obtener un string crudo a partir de plantillas de string (es decir, el original, texto no interpretado).*/
 
-var orig = '   zul ';
-console.log(orig.trim());
+let name = 'lay';
+String.raw`Hi\n${name}!`;
