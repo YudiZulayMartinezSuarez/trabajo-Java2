@@ -1,7 +1,7 @@
-/*El método trimEnd() elimina los espacios en blanco al final de una cadena de carácteres. trimRight() es el alias de este método.*/
+/*El método trimStart() quita el espacio en blanco del principio de una cadena y devuelve una nueva cadena, sin modificar la cadena original. es un alias de este método.trimLeft()*/
 
-const greeting = '   Hola!   ';
+const greeting = '   Hola mundo!   ';
 
 console.log(greeting);
 
-console.log(greeting.trimEnd());
+console.log(greeting.trimStart());
