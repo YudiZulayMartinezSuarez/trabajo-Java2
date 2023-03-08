@@ -1,9 +1,10 @@
-/*Un objeto de expresión regular o cualquier objeto que tenga un método Symbol.match.
-Si regexp no es un objeto RegExp y no tiene un método Symbol.match, se convierte implícitamente en RegExp usando new RegExp(regexp).*/
+/*El método localeCompare() retorna un número indicando si una cadena de carateres de referencia va antes, después o si es la misma que la cadena dada en orden alfabético.*/
 
-const csLewisQuote = 'zulay martinez suarez.';
-const regex1 = /are/;
-const regex2 = /eat/;
-
-csLewisQuote.match(regex1); 
-csLewisQuote.match(regex2);
+function localeCompareLocales() {
+    try {
+      'foo'.localeCompare('bar', 'i');
+    } catch (e) {
+      return e.name === 'RangeError';
+    }
+    return false;
+  }
