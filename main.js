@@ -1,9 +1,9 @@
-/*El método concat() combina dos o más cadenas de texto y devuelve una cadena de texto nueva.*/
+/*El método indexOf() devuelve el índice, dentro del objeto String que realiza la llamada, de la primera ocurrencia del valor especificado, comenzando la búsqueda desde indiceDesde; o -1 si no se encuentra dicho valor.*/
 
-const str1 = 'zulay';
-const str2 = 'martinez';
-
-console.log(str1.concat(' ', str2));
-
-console.log(str2.concat(', ', str1));
+cuenta = 0;
+posicion = miCadena.indexOf("x");
+while ( posicion != -1 ) {
+   cuenta++;
+   posicion = miCadena.indexOf("x",posicion+1);
+}
 
