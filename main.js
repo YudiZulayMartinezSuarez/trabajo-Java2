@@ -1,7 +1,9 @@
-/*El método lastIndexOf() devuelve la posicion (indice) en la que se encuentra el valorBusqueda, dentro del objeto String que realiza la llamada, de la última ocurrencia del valor especificado; o -1 si no se halla. La búsqueda se realiza empezando por el final de la cadena que realiza la llamada, empezando en indiceDesde.*/
+/*Un objeto de expresión regular o cualquier objeto que tenga un método Symbol.match.
+Si regexp no es un objeto RegExp y no tiene un método Symbol.match, se convierte implícitamente en RegExp usando new RegExp(regexp).*/
 
-const animals = ['pajaro', 'conejo', 'oso', 'mariposa'];
+const csLewisQuote = 'zulay martinez suarez.';
+const regex1 = /are/;
+const regex2 = /eat/;
 
-console.log(animals.lastIndexOf('oso'));
-
-console.log(animals.lastIndexOf('pajaro'));
+csLewisQuote.match(regex1); 
+csLewisQuote.match(regex2);
