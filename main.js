@@ -1,7 +1,4 @@
-/*El método endsWith() determina si una cadena de texto termina con los caracteres de una cadena indicada, devolviendo true o false según corresponda.*/
+/*El método replace() devuelve una nueva cadena con algunas o todas las coincidencias de un patrón, siendo cada una de estas coincidencias reemplazadas por remplazo. El patrón puede ser una cadena o una RegExp, y el reemplazo puede ser una cadena o una función que será llamada para cada coincidencia. Si el patrón es una cadena, sólo la primera coincidencia será reemplazada.*/
 
-let str = 'Ser o no ser, esa es la cuestión.'
-
-console.log(str.endsWith('cuestion.'))  // true
-console.log(str.endsWith('ser'))      // false
-console.log(str.endsWith('ser', 19))
+const p = 'el perro salta sobre la serpiente perezosa. si la serpiente reacciona,¿es realmente perezosa?';
+console.log(p.replace('gato', 'girafa'));
