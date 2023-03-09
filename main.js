@@ -1,8 +1,4 @@
-/*Un operador de comparación compara sus operandos y devuelve un valor lógico en función de si la comparación es verdadera (true) o falsa (false). Los operandos pueden ser valores numéricos, de cadena, lógicos u objetos*/
-{
-    Menor o igual (<=)
+/*Los operadores lógicos se utilizan normalmente con valores booleanos (lógicos); cuando lo son, devuelven un valor booleano. Sin embargo, los operadores && y || en realidad devuelven el valor de uno de los operandos especificados, por lo que si estos operadores se utilizan con valores no booleanos, pueden devolver un valor no booleano*/
 
-    let1 <= let2  //Devuelve true si el operando izquierdo es menor o igual que el operando derecho.//
-    let2 <= 10
-
-}
+comparacion = (diaHoy > diaAyer) && (mesHoy == mesAyer);
+	document.write("Resultado: " + comparacion + "<br>");
