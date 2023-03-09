@@ -1,10 +1,8 @@
-/*Los operadores aritméticos en Javascript son aquellos que toman dos operandos numéricos y ejecutan la operación del operador. De esta forma podremos realizar cualquier operación matemática sencilla mediante los operadores aritméticos en Javascript.*/
-
+/*Un operador de comparación compara sus operandos y devuelve un valor lógico en función de si la comparación es verdadera (true) o falsa (false). Los operandos pueden ser valores numéricos, de cadena, lógicos u objetos*/
 {
-	console.log('adición ', 7+2);
-	console.log('sustracción ', 7-2);
-	console.log('multiplicación ', 7*2);
-	console.log('división ', 7/2);
-	console.log('resto ', 7%2);
+Igual (==) //Devuelve true si los operandos son iguales.//
 
+3 == let1
+"3" == let1 
+3 == '3'
 }
