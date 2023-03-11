@@ -1,6 +1,9 @@
-/*La función Math.sqrt() retorna la raíz cuadrada de un número, que es*/
+/*La función Math.ceil() devuelve el entero mayor o igual más próximo a un número dado.*/
 
-Math.sqrt(8);
-Math.sqrt(2);
+console.log(Math.ceil(.95));
 
-Math.sqrt(-1);
+console.log(Math.ceil(.5));
+
+console.log(Math.ceil(6.005));
+
+console.log(Math.ceil(-.6005));
