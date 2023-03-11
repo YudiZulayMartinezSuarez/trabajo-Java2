@@ -1,8 +1,7 @@
-/*La función Math.acos() devuelve el arco coseno (en radianes) de un número que es*/
-
-Math.acos(-2);  
-Math.acos(-1);  
-Math.acos(0);   
-Math.acos(0.5); 
-Math.acos(1);   
-Math.acos(2);
+/*La Funcion Math.asin() retorna El arco seno (en radianes) de un número, eso es.*/
+Math.asin(-2);  
+Math.asin(-1);  
+Math.asin(0);   
+Math.asin(0.5); 
+Math.asin(1);   
+Math.asin(2); 
