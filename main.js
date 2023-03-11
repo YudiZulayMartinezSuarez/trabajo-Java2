@@ -1,14 +1,13 @@
-/*La función estática Math.cos() devuelve el coseno del ángulo especificado, que debe ser especificado en radianes. Este valor es*/
+/*El método estático Math.sin() devuelve el seno de un número en radianes.*/
 
-function getCircleX(radians, radius) {
-    return Math.cos(radians) * radius;
+function getCircleY(radians, radius) {
+    return Math.sin(radians) * radius;
   }
   
-  console.log(getCircleX(1, 10));
- 
-  
-  console.log(getCircleX(2, 10));
- 
-  
-  console.log(getCircleX(Math.PI, 10));
+console.log(getCircleY(1, 10));
 
+
+console.log(getCircleY(2, 10));
+
+
+console.log(getCircleY(Math.PI, 10));
