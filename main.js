@@ -1,5 +1,4 @@
-/*Devuelve el máximo entero menor o igual a un número.*/
+/*La función Math.round()retorna el valor de un número redondeado al entero más cercano.*/
 
-function getFloor(x) {
-    return Math.floor(x);
- }
+x = Math.round(20.49);
+x = Math.round(-20.5);
