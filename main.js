@@ -1,9 +1,5 @@
-/*La función Math.ceil() devuelve el entero mayor o igual más próximo a un número dado.*/
+/*Devuelve el máximo entero menor o igual a un número.*/
 
-console.log(Math.ceil(.95));
-
-console.log(Math.ceil(.5));
-
-console.log(Math.ceil(6.005));
-
-console.log(Math.ceil(-.6005));
+function getFloor(x) {
+    return Math.floor(x);
+ }
