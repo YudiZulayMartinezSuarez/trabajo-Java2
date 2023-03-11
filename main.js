@@ -1,7 +1,10 @@
-/*La Funcion Math.asin() retorna El arco seno (en radianes) de un número, eso es.*/
-Math.asin(-2);  
-Math.asin(-1);  
-Math.asin(0);   
-Math.asin(0.5); 
-Math.asin(1);   
-Math.asin(2); 
+/*La función Math.atan() retorna el arcotangente (en radianes) de un number, esto es*/
+
+
+function calcAngle(opposite, adjacent) {
+    return Math.atan(opposite / adjacent);
+  }
+
+  console.log(calcAngle(8, 10));
+
+  
