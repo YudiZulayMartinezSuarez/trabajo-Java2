@@ -1,10 +1,7 @@
-/*El método devuelve el valor absoluto de un número.Math.abs()*/
+/*La función Math.log() devuelve la base neutral de un número (base e)*/
 
-{
-    let a = Math.abs(7.25);
-    let b = Math.abs(-7.25);
-    let c = Math.abs(null);
-    let d = Math.abs("hola");
-    let e = Math.abs(2-3);
-
+function base(x,y){
+    return Math.log(y) / Math.log(x);
 }
+
+console.log(base(2,8));
