@@ -1,5 +1,11 @@
-/*La función Math.pow() devuelve la base elevada al exponente , esto es, baseexponente.*/
+/*La función Math.random() devuelve un número de coma flotante pseudo-aleatorio, comprendido en el rango de 0 a menor que 1 (es decir, incluido el 0 pero no el 1), con una distribución aproximadamente uniforme en este rango. */
 
-Math.pow(7,2);
-Math.pow(5,8);
-Math.pow(10,2);
+function random(max){
+    return Math.floor(Math.random()*max);
+}
+
+console.log(ramdon(3));
+
+console.log(ramdon(1));
+
+console.log(ramdon());
