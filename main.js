@@ -1,11 +1,6 @@
-/*La función Math.random() devuelve un número de coma flotante pseudo-aleatorio, comprendido en el rango de 0 a menor que 1 (es decir, incluido el 0 pero no el 1), con una distribución aproximadamente uniforme en este rango. */
+/*La función Math.sqrt() retorna la raíz cuadrada de un número, que es*/
 
-function random(max){
-    return Math.floor(Math.random()*max);
-}
+Math.sqrt(8);
+Math.sqrt(2);
 
-console.log(ramdon(3));
-
-console.log(ramdon(1));
-
-console.log(ramdon());
+Math.sqrt(-1);
