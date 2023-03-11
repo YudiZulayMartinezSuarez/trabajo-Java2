@@ -1,4 +1,8 @@
-/*La función Math.round()retorna el valor de un número redondeado al entero más cercano.*/
+/*La función Math.acos() devuelve el arco coseno (en radianes) de un número que es*/
 
-x = Math.round(20.49);
-x = Math.round(-20.5);
+Math.acos(-2);  
+Math.acos(-1);  
+Math.acos(0);   
+Math.acos(0.5); 
+Math.acos(1);   
+Math.acos(2);
