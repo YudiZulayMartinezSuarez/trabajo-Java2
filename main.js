@@ -1,7 +1,8 @@
-/*El método estático Math.sin() devuelve el seno de un número en radianes.*/
+/*La función Math.atan() retorna el arcotangente (en radianes) de un number, esto es
+*/
 
-function getCircleY(radians, radius) {
-    return Math.sin(radians) * radius;
+function getCircleY(posicion, adjetivo) {
+    return Math.atan(posicion / adjetivo);
   }
   
 console.log(getCircleY(1, 10));
