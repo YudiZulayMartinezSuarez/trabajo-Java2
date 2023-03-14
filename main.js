@@ -1,5 +1,6 @@
-/*La función Math.atan2() retorna la arcotangente del cociente de los argumentos.
-*/
+/*método que le permite convertir fácilmente una lista de pares clave-valor en un objeto.
+acepta un iterable como Arrayo Mapy lo transforma en un Objeto :
+devuelve un nuevo objeto cuyas propiedades están especificadas por las entradas del iterable*/
 
-Math.atan2(90, 15); 
-Math.atan2(15, 90);
+let arr = [['color', 'red'],['borderWidth', '1px']];
+let obj = Object.fromEntries(arr);
