@@ -1,6 +1,14 @@
-/*método que le permite convertir fácilmente una lista de pares clave-valor en un objeto.
-acepta un iterable como Arrayo Mapy lo transforma en un Objeto :
-devuelve un nuevo objeto cuyas propiedades están especificadas por las entradas del iterable*/
+/*Los objetos FormData pueden ser de ayuda en esta tarea. Tal como habrás supuesto, éste es el objeto encargado de representar los datos de los formularios HTML.*/
 
-let arr = [['color', 'red'],['borderWidth', '1px']];
-let obj = Object.fromEntries(arr);
+ formElem.onsubmit = async (e) => {
+    e.preventDefault();
+
+    let response = await fetch('/article/formdata/post/user', {
+      method: 'POST',
+      body: new FormData(formElem)
+    });
+
+    let result = await response.json();
+
+    alert(result.message);
+  };
